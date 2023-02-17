@@ -1,17 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - Enter point
- * Description: prints numbers
- * Return: always 0
+ * main - Entry point*
+ * Return: Always 0
  */
+
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 0; n < 10; n++)
-	{
-		putchar(n + '0');
-	}
+	for (i = 0; i < 10; i++)
+	putchar(i + '0');
 	putchar('\n');
+
 	return (0);
 }
