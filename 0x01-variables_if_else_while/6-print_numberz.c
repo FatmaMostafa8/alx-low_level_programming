@@ -1,12 +1,18 @@
 #include <stdio.h>
-/*Desription: prints all single digit numbers of base 10 starting from 0*/
-/* Return: 0*/
+/**
+ * main - Enter point
+ * Description: prints the alphabet in lowercase
+ * Return: always 0
+ */
 int main(void)
 {
-int n;
+	int n = 0;
 
-for (n = 0; n < 10; n++)
- putchar(n + '0');
-putchar('\n');
-return (0);
+	while (n < 10)
+	{
+		putchar(n + '0');
+		n++;
+	}
+	printf("\n");
+	return (0);
 }
