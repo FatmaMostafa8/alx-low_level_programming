@@ -19,7 +19,6 @@ int main(void)
 	c = i + 'a';
 	putchar(c);
 	}
-	putchar('\n');
 
 	return (0);
 }
