@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+
 /**
  * main - Enter point
  * Description: print _putchar
@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	putchar('_putchar\n');
+	putchar('_putchar');
+	putchar('\n');
 	
 	return (0);
 }
